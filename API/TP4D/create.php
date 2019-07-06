@@ -13,7 +13,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $status = "belum";
 
     $waktu_pelaksanaan = '01-01-2019 00:00:00';
-    $newDate1 = date("Y-m-d H:i:s", strtotime($waktu_pelaksanaan));
+    date_default_timezone_set('Asia/Jakarta');
+    $newDate1 = date("Y-m-d H:i:s",time());
 
     //pembuatan syntax sql
     $sql = "INSERT INTO tp4d (nama, nama_kepala, jabatan,alamat, telepon, email, kegiatan,waktu,status_laporan)

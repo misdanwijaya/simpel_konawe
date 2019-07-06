@@ -11,7 +11,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $permintaan_penyuluhan_hukum = $_POST['permintaan_penyuluhan_hukum'];
 
     $waktu_pelaksanaan = '01-01-2019 00:00:00';
-    $newDate1 = date("Y-m-d H:i:s", strtotime($waktu_pelaksanaan));
+    date_default_timezone_set('Asia/Jakarta');
+    $newDate1 = date("Y-m-d H:i:s",time());
 
     $status = "belum";
 
