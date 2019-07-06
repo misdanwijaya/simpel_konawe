@@ -79,12 +79,45 @@ public class form_penyuluhan extends AppCompatActivity implements View.OnClickLi
         }
         addPenyuluhan ap = new addPenyuluhan();
         ap.execute();
+
+        EditNamaPemohon.getText().clear();
+        EditAlamat.getText().clear();
+        EditTelepon.getText().clear();
+        EditEmail.getText().clear();
+        EditPenyuluhan.getText().clear();
+
     }
 
     @Override
     public void onClick(View v) {
         if (v == KlikSimpan){
-            addPenyuluhan();
+            String cek1 = EditNamaPemohon.getText().toString();
+            String cek2 = EditAlamat.getText().toString();
+            String cek3 = EditTelepon.getText().toString();
+            String cek4 = EditEmail.getText().toString();
+            String cek5 = EditPenyuluhan.getText().toString();
+
+            if (cek1.matches("")) {
+                Toast.makeText(this, "Harap Masukan Nama Pemohon", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            else if (cek2.matches("")) {
+                Toast.makeText(this, "Harap Masukan Alamat", Toast.LENGTH_SHORT).show();
+                return;
+            } else if (cek3.matches("")) {
+                Toast.makeText(this, "Harap Masukan Telepon", Toast.LENGTH_SHORT).show();
+                return;
+            }else if (cek4.matches("")) {
+                Toast.makeText(this, "Harap Masukan Email", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            else if (cek5.matches("")) {
+                Toast.makeText(this, "Harap Masukan Permintaan Penyuluhan", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            else {
+                addPenyuluhan();
+            }
         }
         if (v == KlikPenyuluhan){
             startActivity(new Intent(this, tampilSemuaPenyuluhan.class));

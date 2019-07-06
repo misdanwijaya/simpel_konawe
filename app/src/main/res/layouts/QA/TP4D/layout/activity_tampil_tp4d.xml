@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QA.tp4d.TampilDataTP4D">
+    tools:context=".QA.tp4d.TampilDataTP4D"
+    android:background="@drawable/bg9">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,8 +16,7 @@
         android:paddingRight="16dp"
         android:paddingTop="16dp"
         android:paddingBottom="16dp"
-        tools:context=".QA.tp4d.TampilDataTP4D"
-        android:background="@drawable/bg9">
+        tools:context=".QA.tp4d.TampilDataTP4D">
 
         <TextView
             android:layout_width="wrap_content"

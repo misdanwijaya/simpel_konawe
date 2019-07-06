@@ -15,6 +15,7 @@ $r = mysqli_query($con, $sql);
 //Memasukkan Hasil Kedalam Array
 $result = array();
 $row = mysqli_fetch_array($r);
+$newDate = date("d-m-Y H:i",strtotime($row['waktu']));
 array_push($result, array(
     "id" => $row['id'],
     "stasiun_radio" => $row['stasiun_radio'],
@@ -24,7 +25,7 @@ array_push($result, array(
     "telepon" => $row['telepon'],
     "email" => $row['email'],
     "materi" => $row['materi'],
-    "waktu_pelaksanaan" => $row['waktu'],
+    "waktu_pelaksanaan" => $newDate,
 ));
 
 //Menampilkan dalam format JSON

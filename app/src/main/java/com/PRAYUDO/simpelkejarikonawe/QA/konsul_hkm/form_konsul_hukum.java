@@ -92,11 +92,58 @@ public class form_konsul_hukum extends AppCompatActivity implements View.OnClick
         }
         addKonsulHukum kh = new addKonsulHukum();
         kh.execute();
+
+        edtTextStasiunRadio.getText().clear();
+        edtTextNama.getText().clear();
+        edtTextJabatan.getText().clear();
+        edtTextAlamat.getText().clear();
+        edtTextTelepon.getText().clear();
+        edtTextEmail.getText().clear();
+        edtTextMateri.getText().clear();
+        edtTextWaktuPel.getText().clear();
 }
     @Override
     public void onClick(View v){
         if (v == buttonSimpan){
-            addKonsulHukum();
+
+            String cek1 = edtTextStasiunRadio.getText().toString();
+            String cek2 = edtTextNama.getText().toString();
+            String cek3 = edtTextJabatan.getText().toString();
+            String cek4 = edtTextAlamat.getText().toString();
+            String cek5 = edtTextTelepon.getText().toString();
+            String cek6 = edtTextEmail.getText().toString();
+            String cek7 = edtTextMateri.getText().toString();
+            String cek8 = edtTextWaktuPel.getText().toString();
+            if (cek1.matches("")) {
+                Toast.makeText(this, "Harap Masukan Nama Radio", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            else if (cek2.matches("")) {
+                Toast.makeText(this, "Harap Masukan Nama Pengaju", Toast.LENGTH_SHORT).show();
+                return;
+            } else if (cek3.matches("")) {
+                Toast.makeText(this, "Harap Masukan Jabatan", Toast.LENGTH_SHORT).show();
+                return;
+            }else if (cek4.matches("")) {
+                Toast.makeText(this, "Harap Masukan Alamat", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            else if (cek5.matches("")) {
+                Toast.makeText(this, "Harap Masukan Telepon", Toast.LENGTH_SHORT).show();
+                return;
+            } else if (cek6.matches("")) {
+                Toast.makeText(this, "Harap Masukan Email", Toast.LENGTH_SHORT).show();
+                return;
+            } else if (cek7.matches("")) {
+                Toast.makeText(this, "Harap Masukan Materi", Toast.LENGTH_SHORT).show();
+                return;
+            }else if (cek8.matches("")) {
+                Toast.makeText(this, "Harap Masukan Waktu", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            else {
+                addKonsulHukum();
+            }
         }
         if (v == buttonDaftar){
             startActivity(new Intent(this,tampilsemuaData.class));

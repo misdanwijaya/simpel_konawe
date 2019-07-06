@@ -88,11 +88,53 @@ public class form_tp4d extends AppCompatActivity implements View.OnClickListener
         }
         addTp4d tp4d = new addTp4d();
         tp4d.execute();
+
+        edtNamaInstansi.getText().clear();
+        edtNamaKepala.getText().clear();
+        edtTelepon.getText().clear();
+        edtEmail.getText().clear();
+        edtKegiatan.getText().clear();
+        edtNilaiKegiatan.getText().clear();
+        edtAlamat.getText().clear();
     }
     @Override
     public void onClick(View v){
         if (v == btnSimpan){
-            addTp4d();
+
+            String cek1 = edtNamaInstansi.getText().toString();
+            String cek2 = edtNamaKepala.getText().toString();
+            String cek3 = edtTelepon.getText().toString();
+            String cek4 = edtEmail.getText().toString();
+            String cek5 = edtKegiatan.getText().toString();
+            String cek6 = edtNilaiKegiatan.getText().toString();
+            String cek7 = edtAlamat.getText().toString();
+            if (cek1.matches("")) {
+                Toast.makeText(this, "Harap Masukan Nama Instansi", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            else if (cek2.matches("")) {
+                Toast.makeText(this, "Harap Masukan Nama Kepala Instansi", Toast.LENGTH_SHORT).show();
+                return;
+            } else if (cek3.matches("")) {
+                Toast.makeText(this, "Harap Masukan Nomer Telepon", Toast.LENGTH_SHORT).show();
+                return;
+            }else if (cek7.matches("")) {
+                Toast.makeText(this, "Harap Masukan Alamat", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            else if (cek4.matches("")) {
+                Toast.makeText(this, "Harap Masukan Email", Toast.LENGTH_SHORT).show();
+                return;
+            } else if (cek5.matches("")) {
+                Toast.makeText(this, "Harap Masukan Kegiatan", Toast.LENGTH_SHORT).show();
+                return;
+            } else if (cek6.matches("")) {
+                Toast.makeText(this, "Harap Masukan Nilai Kegiatan", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            else {
+                addTp4d();
+            }
         }
         if (v == btnTP4D){
             startActivity(new Intent(this, TampilSemuaTP4D.class));
