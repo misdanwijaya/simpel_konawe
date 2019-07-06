@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".Profile.Visi_Misi"
+    android:background="@drawable/bg9">
+
+    <!--Visi-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="50dp">
+        <TextView
+            android:id="@+id/visi_title_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e2e2de"
+            android:padding="10dp"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="12pt"
+            android:text="Visi dan Misi"/>
+
+        <TextView
+            android:id="@+id/visi_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/visi_title_heading"
+            android:padding="10dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="Visi Kejaksaan RI :"
+            android:textSize="10pt"/>
+
+        <TextView
+            android:id="@+id/visi_subtitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/visi_subtitle"
+            android:padding="10dp"
+            android:text="&#8220;Menjadi Lembaga Penegak Hukum Yang Profesional dan Akuntabel&#8221;"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="8pt"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:id="@+id/visi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/visi_subtitle2"
+            android:lineSpacingExtra="5sp"
+            android:padding="10dp"
+            android:text="@string/visi" />
+
+        <!--Misi-->
+
+        <TextView
+            android:id="@+id/misi_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/visi"
+            android:padding="10dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="Misi Kejaksaan RI :"
+            android:textSize="10pt"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:id="@+id/misi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/misi_subtitle"
+            android:lineSpacingExtra="5sp"
+            android:padding="10dp"
+            android:text="@string/misi" />
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

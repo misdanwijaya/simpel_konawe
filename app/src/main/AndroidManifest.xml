@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.PRAYUDO.simpelkejarikonawe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Simak.tampilSemuaKegiatan"></activity>
+        <activity android:name=".Simak.simak_home" />
+        <activity android:name=".ETilang.alur_tilang" />
+        <activity android:name=".ETilang.tata_cara" />
+        <activity android:name=".ETilang.etilang_home" />
+        <activity android:name=".QA.penyuluhan_hukum.tampilSemuaPenyuluhan" />
+        <activity android:name=".QA.penyuluhan_hukum.tampilDataPenyuluhan" />
+        <activity android:name=".QA.penyuluhan_hukum.form_penyuluhan" />
+        <activity android:name=".QA.tp4d.TampilDataTP4D" />
+        <activity android:name=".QA.tp4d.TampilSemuaTP4D" />
+        <activity android:name=".QA.tp4d.form_tp4d" />
+        <activity android:name=".QA.QA_home" />
+        <activity android:name=".QA.konsul_hkm.tampilData" />
+        <activity android:name=".QA.konsul_hkm.tampilsemuaData" />
+        <activity android:name=".QA.konsul_hkm.form_konsul_hukum" />
+        <activity android:name=".Profile.strukturOrganisasi" />
+        <activity android:name=".Profile.doktrin" />
+        <activity android:name=".Profile.Visi_Misi" />
+        <activity android:name=".Profile.aboutKejari" />
+        <activity android:name=".Profile.profile" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

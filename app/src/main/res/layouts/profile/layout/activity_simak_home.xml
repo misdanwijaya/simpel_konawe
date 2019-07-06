@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Simak.simak_home"
+    android:orientation="vertical"
+    android:background="@drawable/bg8">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SIMAK KEJARI"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:background="#e2e2de"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonPenelusuranPerkara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Informasi Penelusuran Perkara"
+                android:textSize="8pt"
+                android:background="#e6cf00"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonLaporanTP4D"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Laporan TP4D"
+                android:textSize="8pt"
+                android:background="#e6cf00"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonKegiatan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kegiatan-Kegiatan"
+                android:textSize="8pt"
+                android:background="#e6cf00"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

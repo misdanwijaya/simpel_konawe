@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Simpel Kejari Konawe</string>
+    <string name="kejari"> Kejaksaan R.I. adalah lembaga negara yang melaksanakan kekuasaan negara,
+        khususnya di bidang penuntutan. Sebagai badan yang berwenang dalam penegakan hukum dan keadilan,
+        Kejaksaan dipimpin oleh Jaksa Agung yang dipilih oleh dan bertanggung jawab kepada Presiden.
+        Kejaksaan Agung, Kejaksaan Tinggi, dan Kejaksaan Negeri merupakan kekuasaan negara khususnya dibidang penuntutan,
+        dimana semuanya merupakan satu kesatuan yang utuh yang tidak dapat dipisahkan.
+        Sebagai badan yang berwenang, Kejaksaan dipimpin oleh Jaksa Agung yang membawahi enam Jaksa Agung Muda
+        serta 31 Kepala Kejaksaan Tinggi pada tiap Provinsi. Undang-undang No. 16 Tahun 2004 tentang Kejaksaan Republik Indonesia mengisyaratkan bahwa lembaga
+        Kejaksaan Republik Indonesia berada pada posisi sentral sehingga Kejaksaan berada di poros dan menjadi filter antara proses penyidikan dan proses pemeriksaan
+        di persidangan juga sebagai pelaksana penetapan dan keputusan pengadilan. Sehingga, Lembaga Kejaksaan sebagai pengendali proses perkara (Dominus Litis).
+
+    </string>
+
+    <string name="visi">
+    Dengan Penjelasan : \n
+    1.	Lembaga Penegak Hukum: Kejaksaan RI sebagai salah satu lembaga penegak hukum di Indonesia yang mempunyai tugas dan fungsi sebagai penyidik pada tindak pidana tertentu,
+        penuntut umum, pelaksana penetapan Hakim, pelaksana putusan pengadilan yang telah memperoleh kekuatan hukum tetap, melakukan pengawasan terhadap pelaksanaan putusan pidana bersyarat,
+        pidana pengawasan dan lepas bersyarat, bertindak sebagai Pengacara Negara serta turut membina ketertiban dan ketentraman umum melalui upaya antara lain: Meningkatkan Kesadaran Hukum Masyarakat,
+        Pengamanan Kebijakan Penegakan Hukum dan Pengawasan Aliran Kepercayaan dan Penyalahgunaan Penodaan Agama \n\n
+    2.	Profesional: Segenap aparatur Kejaksaan RI dalam melaksanakan tugas didasrkan atas nilai luhur TRI KRAMA ADHYAKSA serta kompetensi dan kapabilitas yang ditunjang dengan
+        pengetahuan dan wawasan yang luas serta pengalaman kerja yang memadai dan berpegang teguh pada aturan serta kode etik profesi yang berlaku \n\n
+    3.	Proporsional: Dalam melaksanakan tugas dan fungsinya Kejaksaan selalu memakai semboyan yakni menyeimbangkan yang tersurat dan tersirat dengan penuh tanggungjawab,
+        taat azas, efektif dan efisien serta penghargaan terhadap hak-hak publik \n\n
+    4.	Akuntabel: Bahwa kinerja Kejaksaan Republik Indonesia dapat dipertanggungjawabkan sesuai dengan ketentuan yang berlaku.
+    </string>
+
+    <string name="misi">
+    1.	Meningkatkan Peran Kejaksaan Republik Indonesia Dalam Program Pencegahan Tindak Pidana \n\n
+    2.	Meningkatkan Professionalisme Jaksa Dalam Penanganan Perkara Tindak Pidana \n\n
+    3.	Meningkatkan Peran Jaksa Pengacara Negara Dalam Penyelesaian Masalah Perdata dan Tata Usaha Negara \n\n
+    4.	Mewujudkan Upaya Penegakan Hukum Memenuhi Rasa Keadilan Masyarakat \n\n
+    5.	Mempercepat Pelaksanaan Reformasi Birokrasi dan Tata Kelola Kejaksaan Republik Indonesia yang Bersih dan Bebas Korupsi, Kolusi dan Nepotisme
+        \n\n
+    (Sumber: Peraturan Jaksa Agung Nomor: 007/A/JA/08/2016 tentang Perubahan Atas Peraturan Jaksa Agung Republik Indonesia Nomor PER-010/A/JA/06/2015
+        Tentang Rencana Strategis Kejaksaan Republik Indonesia Tahun 2015-2019 tanggal 4 Agustus 2016)
+    </string>
+
+    <string name="doktrin">
+        <b>- SATYA : </b>\n
+        Kesetiaan yang bersumber pada rasa jujur, baik terhadap Tuhan Yang Maha Esa, terhadap diri pribadi dan keluarga maupun kepada sesama manusia.\n\n
+        <b>- ADHI :</b>\n
+        Kesempurnaan dalam bertugas dan berunsur utama pada rasa tanggung jawab terhadap Tuhan Yang Maha Esa,  keluarga dan sesama manusia.\n\n
+        <b>- Wicaksana :</b>\n
+        Bijaksana dalam tutur kata dan tingkah laku, khususnya dalam penerapan kekuasaan dan kewenangannya.
+    </string>
+
+    <string name="struktur">
+        Mengacu Pada Perja No 006/A/JA/07/2017 tanggal 20 Juli 2017 tanggal 20 Juli 2017, Struktur Organisasi Kejaksaan Negeri Konawe adalah sebagai berikut :
+    </string>
+
+    <string name="tata_cara">
+    1.	Pengadilan menerima berkas perkara yang disertai surat pengantar dan daftar perkara pelanggaran lalu lintas berupa dokumen cetak dan dokumen elektronik dari Penyidik paling lambat 3 (tiga) hari sebelum pelaksanaan persidangan. (Pasal 5 Ayat 1) \n\n
+    2.	Panitera Muda melalui Panitera menyampaikan formulir penetapan Hakim kepada Ketua Pengadilan paling lama 2 (dua) hari sebelum pelaksanaan sidang baik secara manual maupun elektronik melalui SIPP. (Pasal 6 Ayat 1) \n\n
+    3.	Hakim mengeluarkan penetapan/putusan berisi besaran denda yang duucapkan pada hari sidang yang ditentukan pada pukul 08.00 setempat. (Pasal 7 Ayat 2) \n\n
+    4.	Penetapan/putusan denda diumumkan melalui laman resmi dan papan pengumuman Pengadilan pada hari itu juga. (Pasal 7 Ayat 3) \n\n
+    5.	Pelaksanaan putusan dalam perkara pelanggaran lalu lintas dilakukan oleh jaksa. (Pasal 9 Ayat 1) \n\n
+    6.	Pelanggar membayar secara tunai atau elektronik ke rekening kejaksaan. (Pasal 10 Ayat 1) \n\n
+    7.	Pelanggar mengambil barang bukti kepada Jaksa selaku eksekutor di kantor Kejaksaan dengan menunjukan bukti pembayaran denda. (Pasal 10 Ayat 2) \n\n
+
+    (Sumber: (PERMA) No 12 Tahun 2016 tentang Tata Cara Penyelesaian Perkara Pelanggaran Lalu Lintas)
+    </string>
+
+    <string name="alur">
+        <b> Pertama</b>\n
+        Pelanggar terlebih dahulu melihat denda yang telah diputus Hakim melalui :\n
+        \u2022Sistem Informasi Penelusuran Perkara PN Unaaha (http://sipp.pn-unaaha.go.id/)\n
+        \u2022Datang ke Kejaksaan Negeri Konawe dan menanyakan langsung ke Loket Tilang/Bagian Tilang\n\n
+        <b>Kedua</b>\n
+        Mengecek nomor pembayaran Tilang/BRIVA (15 digit melalui) :\n
+        \u2022www.etilang.info (dengan memasukan nomor Register Tilang contoh: E 1234567)\n
+        \u2022Datang ke Kejaksaan Negeri Konawe dan menanyakan langsung ke Loket Tilang/Bagian Tilang \n\n
+        <b>Ketiga</b>\n
+        Melakukan pembayaran denda Tilang sejumlah Putusan Hakim dengan cara : \n
+        \u2022Setor Tunai melalui Teller Bank BRI terdekat \n
+        \u2022Melalui ATM/Mesin EDC \n
+        \u2022Datang ke Kejaksaan Negeri Konawe dan menanyakan langsung ke Loket Tilang/Bagian Tilang \n
+    </string>
+
+    <string name="http">http://</string>
+    <string name="download">Download</string>
+    <string name="write_file">This app needs access to your file storage so that it can write files.</string>
+
+
+    <string name="openFolder">Open Downloaded Folder</string>
+    <string name="downloadStarted">Download Started…</string>
+    <string name="downloadCompleted">Download Completed…</string>
+    <string name="downloadFailed">Download Failed…</string>
+    <string name="downloadAgain">Download Again</string>
+</resources>

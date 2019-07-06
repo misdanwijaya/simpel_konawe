@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile.profile"
+    android:orientation="vertical"
+    android:background="@drawable/bg8">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="70dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonProfile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Profil Kejari"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:background="#e2e2de"/>
+
+        </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="70dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/buttonKejaksaaanRI"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Kejaksaan RI"
+                    android:textSize="8pt"
+                    android:background="#e8df3a"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonVisiMisi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Visi dan Misi"
+                android:textSize="8pt"
+                android:background="#e8df3a"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonDoktrinKejaksaan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Doktrin Kejaksaan"
+                android:textSize="8pt"
+                android:background="#e8df3a"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonStrukturOrganisasi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Struktur Organisasi Kejari Konawe"
+                android:textSize="8pt"
+                android:background="#e8df3a"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    </LinearLayout>

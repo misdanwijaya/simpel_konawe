@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile.strukturOrganisasi"
+    android:background="@drawable/bg9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp">
+
+            <TextView
+                android:id="@+id/struktur_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e2e2de"
+                android:padding="10dp"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="10pt"
+                android:text="Struktur Organisasi Kejari Konawe"/>
+
+            <TextView
+                android:id="@+id/struktur_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/struktur_title"
+                android:padding="10dp"
+                android:text="Struktur Organisasi Kejaksaan Negeri Konawe"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="8pt"/>
+
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:id="@+id/strukturOrganisasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/struktur_subtitle"
+                android:lineSpacingExtra="5sp"
+                android:padding="10dp"
+                android:text="@string/struktur"/>
+
+            <!--<ImageView-->
+                <!--android:id="@+id/ivIcon"-->
+                <!--android:layout_width="300dp"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_below="@id/strukturOrganisasi"-->
+                <!--android:src="@drawable/konawe"/>-->
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/imageZoom"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/strukturOrganisasi"
+                android:src="@drawable/struktur_organisasi"/>
+
+            <!--<TextView-->
+                <!--android:id="@+id/tvName"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/ivIcon"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="Struktur Organisasi Kejaksaan Negeri Konawe"-->
+                <!--android:layout_centerHorizontal="true"/>-->
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
