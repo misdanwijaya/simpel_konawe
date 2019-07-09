@@ -46,7 +46,7 @@ public class etilang_home extends AppCompatActivity {
             public void onClick(View v) {
                 Intent browserIntent = new Intent(
                         Intent.ACTION_VIEW,
-                        Uri.parse("http://simpel-konawe.000webhostapp.com/berkas/REGISTER_TILANG.xlsx"));
+                        Uri.parse("https://view.officeapps.live.com/op/view.aspx?src=http://simpel-konawe.000webhostapp.com/berkas/REGISTER_TILANG.xlsx"));
                 startActivity(browserIntent);
             }
         });

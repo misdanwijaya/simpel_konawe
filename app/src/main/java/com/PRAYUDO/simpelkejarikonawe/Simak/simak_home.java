@@ -25,7 +25,7 @@ public class simak_home extends AppCompatActivity {
             public void onClick(View v) {
                 Intent browserIntent = new Intent(
                         Intent.ACTION_VIEW,
-                        Uri.parse("http://simpel-konawe.000webhostapp.com/berkas/Penelusuran_Perkara.docx"));
+                        Uri.parse("https://view.officeapps.live.com/op/view.aspx?src=http://simpel-konawe.000webhostapp.com/berkas/Penelusuran_Perkara.docx"));
                 startActivity(browserIntent);
             }
         });
