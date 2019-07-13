@@ -18,6 +18,8 @@ android {
                     'src/main/res/layouts/QA/konsul_hkm',
                     'src/main/res/layouts/QA/penyuluhan_hkm',
                     'src/main/res/layouts/QA/TP4D',
+                    'src/main/res/layouts/E_Tilang',
+                    'src/main/res/layouts/SimakKejari',
                     'src/main/res/layouts/',
                     'src/main/res',
             ]
