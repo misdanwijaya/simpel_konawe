@@ -62,7 +62,7 @@
                                     android:layout_width="156dp"
                                     android:layout_height="97dp"
                                     android:layout_centerInParent="true"
-                                    android:src="@drawable/house_edit"/>
+                                    android:src="@drawable/profil"/>
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -101,7 +101,7 @@
                                     android:layout_width="156dp"
                                     android:layout_height="97dp"
                                     android:layout_centerInParent="true"
-                                    android:src="@drawable/etilang_edit" />
+                                    android:src="@drawable/Etilang" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -148,7 +148,7 @@
                                     android:layout_width="156dp"
                                     android:layout_height="97dp"
                                     android:layout_centerInParent="true"
-                                    android:src="@drawable/qa_edit" />
+                                    android:src="@drawable/QA" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -187,7 +187,7 @@
                                     android:layout_width="156dp"
                                     android:layout_height="97dp"
                                     android:layout_centerInParent="true"
-                                    android:src="@drawable/report_edit"
+                                    android:src="@drawable/SIMAK"
                                     />
 
                                 <TextView
